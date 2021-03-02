@@ -1,0 +1,50 @@
+
+.content{
+    
+    padding: 70px 0;
+    text-align: center;
+    font-family:monospace;
+    color:white;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+#rcorners1 {
+    border-radius: 25px;
+    background: #17724579;
+    padding: 20px;
+    width: auto;
+    height: auto;  
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+#noBullet{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+  }
+  
+  .fadeInAnimated {
+    opacity: 0;
+    animation: fadeIn 2s forwards; /* forwards (animation-fill-mode) retains the style from the last keyframe when the animation ends */
+  }
+  
+  #second {
+    animation-delay: 2s;
+  }
+  
+  #third {
+    animation-delay: 4s;
+  }
+  #fourth {
+    animation-delay: 6s;
+  }
+  
+  #fifth {
+    animation-delay: 7s;
+  }
+
